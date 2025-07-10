@@ -76,6 +76,8 @@ This helps you track:
 ## Important Notes
 
 - Run from dom0. The script will not work inside other VMs (`work`, `personal`, etc).
+- So u need to do :
+  ```` qvm-copy-to-vm dom0 qubes-updater ````
 - It uses `sudo dnf updateinfo list available` for checking updates.
 - You can customize it to use `apt` if you're running Debian-based VMs.
 
